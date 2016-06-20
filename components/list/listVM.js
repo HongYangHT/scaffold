@@ -11,7 +11,6 @@ define([
 			return {
 				id : '',
 				emails : [
-					/*{'name':'table layout布局样式一','value':'请先用这个table做第一次布局','type':'tableLay','col':1,'row':1},*/
 					{'name':'table布局样式一','value':'一行一列','type':'table','col':1,'row':1},
 					{'name':'table布局样式二','value':'一行两列','type':'table','col':2,'row':1},
 					{'name':'table布局样式三','value':'一行三列','type':'table','col':3,'row':1},
