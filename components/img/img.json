@@ -1,0 +1,70 @@
+{
+	"imgRoot":{
+		"key":"src",
+		"value":"http://mimg.127.net/hz/uploader/20160613/14658227165520004.jpg",
+		"name":"图片地址",
+		"type":"input"
+	},
+	"remark":{
+		"key":"alt",
+		"value":"psc",
+		"name":"图片备注",
+		"type":"input"
+	},
+	"style":[
+		{
+			"key":"display",
+			"value":"inline-block",
+			"name":"显示框类型",
+			"type":0
+		},
+		{
+			"key":"width",
+			"value":"100%",
+			"name":"宽度",
+			"type" : "input"
+		},
+		{
+			"key":"height",
+			"value":"auto",
+			"name":"高度",
+			"type" : "input"
+		},
+		{
+			"key":"borderColor",
+			"value":"#3e3e3e",
+			"name" : "边框颜色",
+			"type" : "input"
+		},
+		{
+			"key":"borderStyle",
+			"value":"solid",
+			"name" : "边框样式",
+			"type" : "select"
+		},
+		{
+			"key":"borderLeftWidth",
+			"value":0,
+			"name" : "左边框宽度",
+			"type" : "input"	
+		},
+		{
+			"key":"borderRightWidth",
+			"value":0,
+			"name" : "右边框宽度",
+			"type" : "input"
+		},
+		{
+			"key":"borderTopWidth",
+			"value":0,
+			"name" : "上边框宽度",
+			"type" : "input"
+		},
+		{
+			"key":"borderBottomWidth",
+			"value":0,
+			"name" : "下边框宽度",
+			"type" : "input"
+		}
+	]
+}

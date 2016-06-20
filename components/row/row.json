@@ -1,0 +1,102 @@
+{
+	"row" : 1,
+	"col" : 1,
+	"style" : [
+		{
+			"key":"position",
+			"value":"static",
+			"name" : "定位类型",
+			"type" : "select"
+		},
+		{
+			"key":"width",
+			"value":"100%",
+			"name":"宽度",
+			"type" : "input"
+		},
+		{
+			"key":"height",
+			"value":"100%",
+			"name":"高度",
+			"type" : "input"
+		},
+		{
+			"key":"color",
+			"value":"#333",
+			"name" : "字体颜色",
+			"type" : "input"
+		},
+		{
+			"key":"borderColor",
+			"value":"#3e3e3e",
+			"name" : "边框颜色",
+			"type" : "input"
+		},
+		{
+			"key":"borderStyle",
+			"value":"solid",
+			"name" : "边框样式",
+			"type" : "select"
+		},
+		{
+			"key":"borderLeftWidth",
+			"value":0,
+			"name" : "左边框宽度",
+			"type" : "input"	
+		},
+		{
+			"key":"borderRightWidth",
+			"value":0,
+			"name" : "右边框宽度",
+			"type" : "input"
+		},
+		{
+			"key":"borderTopWidth",
+			"value":0,
+			"name" : "上边框宽度",
+			"type" : "input"
+		},
+		{
+			"key":"borderBottomWidth",
+			"value":0,
+			"name" : "下边框宽度",
+			"type" : "input"
+		},
+		{
+			"key":"backgroundImage",
+			"value":"none",
+			"name" : "背景图片",
+			"type" : "input"
+		},
+		{
+			"key":"backgroundSize",
+			"value":"100% auto",
+			"name" : "背景的大小",
+			"type" : 0
+		},
+		{
+			"key":"backgroundRepeatX",
+			"value":"no-repeat",
+			"name" : "背景是否重复",
+			"type" : 0
+		},
+		{
+			"key":"backgroundRepeatY",
+			"value":"no-repeat",
+			"name" : "背景颜色",
+			"type" : 0
+		},
+		{
+			"key":"fontSize",
+			"value":12,
+			"name" : "字体大小",
+			"type" : "input"
+		},
+		{
+			"key":"textAlign",
+			"value":"center",
+			"name" : "居中方式",
+			"type" : "select"
+		}
+	]
+}

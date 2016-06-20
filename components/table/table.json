@@ -1,0 +1,136 @@
+{
+	"row" : {
+		"key":"row",
+		"value":1,
+		"name" : "行数",
+		"type" : "input"
+	},
+	"col" : {
+		"key":"col",
+		"value":1,
+		"name" : "列数",
+		"type" : "input"
+	},
+	"style" : [
+		{
+			"key":"tableLayout",
+			"value":"fixed",
+			"name" : "页面布局",
+			"type" : 0
+		},
+		{
+			"key":"width",
+			"value":"100%",
+			"name":"宽度",
+			"type" : 0
+		},
+		{
+			"key":"maxWidth",
+			"value":"100%",
+			"name":"宽度",
+			"type" : "input"
+		},
+		{
+			"key":"minHeight",
+			"value":"100%",
+			"name":"高度",
+			"type" : "input"
+		},
+		{
+			"key":"height",
+			"value":"100%",
+			"name":"高度",
+			"type" : 0
+		},
+		{
+			"key":"color",
+			"value":"#333",
+			"name" : "字体颜色",
+			"type" : "input"
+		},
+		{
+			"key":"fontFamily",
+			"value":"Microsoft YaHei,Simsun",
+			"name" : "字体",
+			"type" : 0
+		},
+		{
+			"key":"fontStyle",
+			"value":"normal",
+			"name": "字体样式",
+			"type" : 0
+		},
+		{
+			"key":"fontSize",
+			"value":"12",
+			"name" : "字体大小",
+			"type" : "input"
+		},
+		{
+			"key":"fontWeight",
+			"value":"normal",
+			"name" : "字体粗细",
+			"type" : "select"
+		},
+		{
+			"key":"borderColor",
+			"value":"#3e3e3e",
+			"name" : "边框颜色",
+			"type" : "input"
+		},
+		{
+			"key":"borderStyle",
+			"value":"solid",
+			"name" : "边框样式",
+			"type" : "select"
+		},
+		{
+			"key":"borderLeftWidth",
+			"value":0,
+			"name" : "左边框宽度",
+			"type" : "input"	
+		},
+		{
+			"key":"borderRightWidth",
+			"value":0,
+			"name" : "右边框宽度",
+			"type" : "input"
+		},
+		{
+			"key":"borderTopWidth",
+			"value":0,
+			"name" : "上边框宽度",
+			"type" : "input"
+		},
+		{
+			"key":"borderBottomWidth",
+			"value":0,
+			"name" : "下边框宽度",
+			"type" : "input"
+		},
+		{
+			"key":"backgroundImage",
+			"value":"none",
+			"name" : "背景图片",
+			"type" : "input"
+		},
+		{
+			"key":"backgroundSize",
+			"value":"100% auto",
+			"name" : "背景的大小",
+			"type" : 0
+		},
+		{
+			"key":"backgroundRepeatX",
+			"value":"no-repeat",
+			"name" : "背景是否重复",
+			"type" : 0
+		},
+		{
+			"key":"backgroundRepeatY",
+			"value":"no-repeat",
+			"name" : "背景颜色",
+			"type" : 0
+		}
+	]
+}
