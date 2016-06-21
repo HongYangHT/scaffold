@@ -38,6 +38,11 @@ define([
 				var btnText = '';
 					btnText = this.description.data.btnText.value;
 					return btnText;
+			},
+			btnLink : function(){
+				var btnLink = '';
+					btnLink = this.description.data.btnLink.value;
+					return btnLink;
 			}
 		},
 		methods : {

@@ -7,7 +7,9 @@ require.config({
 		'text'	     :   'libs/text',
 		'vue'	     :   'libs/vue',
 		'collapse'   :   'libs/jquery.collapse',
-		'uuid'		 : 	 'libs/uuid'
+		'uuid'		 : 	 'libs/uuid',
+		'FileSaver'  :   'libs/FileSaver',
+		'Blob'       :   'libs/Blob'
 	},
 	shim : {
 		'underscore' : {
@@ -20,6 +22,14 @@ require.config({
 		'uuid'		: {
 			deps   :  ['jquery'],
 			exports : 'uuid' 
+		},
+		'Blob'   : {
+			deps  : ['jquery'],
+			exports : 'Blob'
+		},
+		'FileSaver' : {
+			deps : ['jquery','Blob'],
+			exports : 'FileSaver'
 		}
 	}
 });

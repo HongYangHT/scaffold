@@ -13,7 +13,7 @@
         		</label>
     			<input type="radio" v-model="picked" id="preview" name="picked" value="1" style="display: none;"/>
             </div>
-            <div class="u-btn u-download" v-bind:class="{'active' : downloadActive}">
+            <div class="u-btn u-download" v-bind:class="{'active' : downloadActive}" v-on:click="downloadHtml">
                 <label for="download">
                     {{download}}
                 </label>

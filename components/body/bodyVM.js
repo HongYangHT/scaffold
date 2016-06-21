@@ -2,7 +2,9 @@ define([
 	'vue',
 	'text!components/body/body.tpl',
 	'components/container/containerVM',
-	'components/edit/editVM'
+	'components/edit/editVM',
+	'Blob',
+	'FileSaver'
 ],function(vue,tpl,ContainerVM,EditVM){
 	return vue.extend({
 		components : {
@@ -48,6 +50,12 @@ define([
 					$(this.$el).find('.m-oparate').hide();
 					$(this.$el).find('.m-container').addClass('prev');
 				}
+			},
+			tellBodyToDownload : function(){
+				$(this.$el).find('.m-oparate').hide();
+				var html = $(this.$el).find('.m-container').html();
+				var blob = new Blob([html], {type: "text/html;charset=utf-8"});
+				saveAs(blob, "mail.html");
 			}
 		}
 	});

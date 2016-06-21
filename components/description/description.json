@@ -107,6 +107,12 @@
 			"value":10,
 			"name":"左内边距",
 			"type":"input"
+		},
+		{
+			"key":"textDecoration",
+			"value":"none",
+			"name":"下划线",
+			"type":0
 		}
 	]
 }

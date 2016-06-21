@@ -4,6 +4,7 @@ define([
 	'components/header/headerVM',
 	'components/body/bodyVM',
 	'components/footer/footerVM'
+	
 ],
 function(vue,tpl,HeaderVM,BodyVM,FooterVM){
 	return vue.extend({
@@ -27,6 +28,9 @@ function(vue,tpl,HeaderVM,BodyVM,FooterVM){
 			editOrPreview : function(picked){
 				this.picked = picked;
 				this.$broadcast('tellBody',picked);
+			},
+			downloadAndSave : function(){
+				this.$broadcast('tellBodyToDownload');
 			}
 		}
 	});
