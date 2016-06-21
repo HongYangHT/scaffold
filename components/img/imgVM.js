@@ -48,7 +48,7 @@ define([
 				$event.stopPropagation();
 				var _removeId = $($event.target).closest('.m-oparate').data('oparate'),
 					_setStyleId = $($event.target).closest('table').data('id');
-				$($event.target).closest('.m-oparate').siblings('table').remove().end().remove();
+				$($event.target).closest('.m-oparate').siblings('a,img').remove().end().remove();
 				this.$dispatch('refleshStyle',{
 					removeId : _removeId,
 					setStyleId : _setStyleId

@@ -31,16 +31,10 @@
 			"type" : "input"
 		},
 		{
-			"key":"minHeight",
+			"key":"height",
 			"value":"600",
 			"name":"高度",
 			"type" : "input"
-		},
-		{
-			"key":"height",
-			"value":"100%",
-			"name":"高度",
-			"type" : 0
 		},
 		{
 			"key":"color",

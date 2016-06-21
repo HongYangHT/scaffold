@@ -209,6 +209,30 @@
 			"value":"no-repeat",
 			"name" : "背景颜色",
 			"type" : 0
+		},
+		{
+			"key":"paddingTop",
+			"value":10,
+			"name":"上内边距",
+			"type":"input"
+		},
+		{
+			"key":"paddingRight",
+			"value":10,
+			"name":"右内边距",
+			"type":"input"
+		},
+		{
+			"key":"paddingBottom",
+			"value":10,
+			"name":"下内边距",
+			"type":"input"
+		},
+		{
+			"key":"paddingLeft",
+			"value":10,
+			"name":"左内边距",
+			"type":"input"
 		}
 	]
 }

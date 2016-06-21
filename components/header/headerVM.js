@@ -30,8 +30,10 @@ define([
 		},
 		methods : {
 			handleClick : function($event,picked){
-				console.log(picked);
 				this.$dispatch('editOrPreview',picked);
+			},
+			downloadHtml : function(){
+				this.$dispatch('downloadAndSave');
 			}
 		},
 		events : {

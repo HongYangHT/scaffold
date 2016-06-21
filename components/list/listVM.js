@@ -51,6 +51,7 @@ define([
 					col  : $parent.data('col'),
 					row  : $parent.data('row')
 				};	
+				this.showModal = false;
 				this.$dispatch('insertComponent',_data);
 			}
 		},

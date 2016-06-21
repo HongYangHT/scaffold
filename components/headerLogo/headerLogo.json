@@ -14,7 +14,7 @@
 	},
 	"logo":{
 		"key":"logo",
-		"value":2,
+		"value":1,
 		"name" : "logo数量",
 		"type" : "input"
 	},
@@ -159,7 +159,7 @@
 		},
 		{
 			"key":"textAlign",
-			"value":"center",
+			"value":"left",
 			"name":"对齐方式",
 			"type":"select"
 		},
