@@ -35,6 +35,19 @@ define([
 			tellRootEdit : function(id){
 				var _data = this._data.body['d_'+id];
 				this.$broadcast('editComponentStyle',_data);
+			},
+			removeData : function(id){
+				delete this._data.body['d_'+id];
+			},
+			tellBody : function(picked){
+				this.$broadcast('editShowOrHide',picked);
+				if(picked == 0){
+					$(this.$el).find('.m-oparate').show();
+					$(this.$el).find('.m-container').removeClass('prev');
+				}else{
+					$(this.$el).find('.m-oparate').hide();
+					$(this.$el).find('.m-container').addClass('prev');
+				}
 			}
 		}
 	});

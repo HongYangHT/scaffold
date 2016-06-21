@@ -27,6 +27,15 @@ define([
 			downloadActive : function(){
 				return this.picked == 2 ? true : false; 
 			}
+		},
+		methods : {
+			handleClick : function($event,picked){
+				console.log(picked);
+				this.$dispatch('editOrPreview',picked);
+			}
+		},
+		events : {
+
 		}
 	});
 });

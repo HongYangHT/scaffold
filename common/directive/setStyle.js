@@ -26,6 +26,10 @@ define(['vue','underscore'],function(vue,_){
                     case 'borderRightWidth':
                     case 'borderTopWidth':
                     case 'borderBottomWidth':
+                    case 'paddingTop':
+                    case 'paddingRight':
+                    case 'paddingBottom':
+                    case 'paddingLeft':
    						_that.el.style[key] = value + 'px';
    						break;
                     case 'width':

@@ -1,16 +1,101 @@
 {
+
 	"row" : {
 		"key":"row",
 		"value":1,
 		"name" : "行数",
-		"type" : "input"
+		"type" : 0
 	},
 	"col" : {
 		"key":"col",
 		"value":1,
 		"name" : "列数",
+		"type" : 0
+	},
+	"logo":{
+		"key":"logo",
+		"value":2,
+		"name" : "logo数量",
 		"type" : "input"
 	},
+	"headerLogoImg":[
+		{
+			"key":"src",
+			"value":"http://mimg.127.net/hz/uploader/20160406/14599301756340877.png",
+			"name" : "LogoUrl地址1",
+			"type" : "input"
+		},
+		{
+			"key":"src",
+			"value":"http://mimg.127.net/hz/uploader/20160406/14599301756340877.png",
+			"name" : "LogoUrl地址2",
+			"type" : "input"
+		},
+		{
+			"key":"src",
+			"value":"http://mimg.127.net/hz/uploader/20160406/14599301756340877.png",
+			"name" : "LogoUrl地址3",
+			"type" : "input"
+		},
+		{
+			"key":"src",
+			"value":"http://mimg.127.net/hz/uploader/20160406/14599301756340877.png",
+			"name" : "LogoUrl地址4",
+			"type" : "input"
+		}
+	],
+	"headerLogoRemark":[
+		{
+			"key":"alt",
+			"value":"psc",
+			"name" : "图片备注1",
+			"type" : "input"
+		},
+		{
+			"key":"alt",
+			"value":"psc",
+			"name" : "图片备注2",
+			"type" : "input"
+		},
+		{
+			"key":"alt",
+			"value":"psc",
+			"name" : "图片备注3",
+			"type" : "input"
+		},
+		{
+			"key":"alt",
+			"value":"psc",
+			"name" : "图片备注4",
+			"type" : "input"
+		}
+	],
+	"headerLogoLink":[
+		{
+			"key":"link",
+			"value":"http://you.163.com/",
+			"name" : "Logo链接1",
+			"type" : "input"
+		},
+		{
+			"key":"link",
+			"value":"http://you.163.com/",
+			"name" : "Logo链接2",
+			"type" : "input"
+		},
+		{
+			"key":"link",
+			"value":"http://you.163.com/",
+			"name" : "Logo链接3",
+			"type" : "input"
+		},
+		{
+			"key":"link",
+			"value":"http://you.163.com/",
+			"name" : "Logo链接4",
+			"type" : "input"
+		}
+	],
 	"style" : [
 		{
 			"key":"tableLayout",
@@ -28,7 +113,7 @@
 			"key":"maxWidth",
 			"value":"100%",
 			"name":"宽度",
-			"type" : "input"
+			"type" : 0
 		},
 		{
 			"key":"minHeight",
@@ -71,6 +156,12 @@
 			"value":"normal",
 			"name" : "字体粗细",
 			"type" : 0
+		},
+		{
+			"key":"textAlign",
+			"value":"center",
+			"name":"对齐方式",
+			"type":"select"
 		},
 		{
 			"key":"borderColor",

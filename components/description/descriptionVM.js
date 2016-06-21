@@ -1,38 +1,43 @@
 define([
 	'vue',
-	'text!components/img/img.tpl'
+	'text!components/description/description.tpl'
 ],function(vue,tpl){
 	var component = vue.extend({
 		template : tpl,
 		data : function(){
 			return {
 				id : '',
-				img : '',
+				description : '',
 				active : false
 			};
 		},
 		computed : {
 			style : function(){
 				var style = {};
-				$.each(this.img.data.style,function(i,n){
-					style[n.key] = n.value;
-				});
-				return style;
+					$.each(this.description.data.style,function(i,n){
+						style[n.key] = n.value;
+					});
+					return style;
 			},
-			imgRoot : function(){
-				var imgRoot = '';
-					imgRoot = this.img.data.imgRoot.value;
-					return imgRoot;
+			title : function(){
+				var title = '';
+					title = this.description.data.title.value;
+					return title;
 			},
-			remark : function(){
-				var remark = '';
-					remark = this.img.data.remark.value;
-					return remark;
+			desc: function(){
+				var desc = '';
+					desc = this.description.data.desc.value;
+					return desc;
 			},
-			link : function(){
-				var link = '';
-					link = this.img.data.link.value;
-					return link;
+			tip : function(){
+				var tip = '';
+					tip = this.description.data.tip.value;
+					return tip;
+			},
+			btnText : function(){
+				var btnText = '';
+					btnText = this.description.data.btnText.value;
+					return btnText;
 			}
 		},
 		methods : {
@@ -48,7 +53,7 @@ define([
 				$event.stopPropagation();
 				var _removeId = $($event.target).closest('.m-oparate').data('oparate'),
 					_setStyleId = $($event.target).closest('table').data('id');
-				$($event.target).closest('.m-oparate').siblings('table').remove().end().remove();
+				$($event.target).closest('.m-oparate').siblings('a').remove().end().remove();
 				this.$dispatch('refleshStyle',{
 					removeId : _removeId,
 					setStyleId : _setStyleId

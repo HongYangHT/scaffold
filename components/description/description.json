@@ -1,0 +1,112 @@
+{
+	"title":{
+		"key":"title",
+		"value":"24cm升级版铸铁珐琅锅",
+		"name":"标题",
+		"type":"textArea"
+	},
+	"desc":{
+		"key":"desc",
+		"value":"一上线就卖断的超明星商品。24cm升级版除容量上更适合三口之家烹调需要外，对制造  工艺和锅盖设计进一步升级，导热性和密封性更好，锁住食物质感和营养，多层炫彩珐琅瓷打造美轮美奂厨房艺术品。同时兼具炖、烤两用功能。",
+		"name":"描述",
+		"type":"textArea"
+	},
+	"tip":{
+		"key":"tip",
+		"value":"双立人制造商正值上新大促可用100元直减券，298元即可带回家。",
+		"name":"提醒描述",
+		"type":"textArea"
+	},
+	"btnText":{
+		"key":"btnText",
+		"value":"立即领取",
+		"name":"按钮文案",
+		"type":"input"
+	},
+	"btnLink":{
+		"key":"btnLink",
+		"value":"http://you.163.com/",
+		"name":"按钮链接",
+		"type":"input"
+	},
+	"style":[
+		{
+			"key":"display",
+			"value":"inline-block",
+			"name":"显示框类型",
+			"type":0
+		},
+		{
+			"key":"height",
+			"value":"auto",
+			"name":"高度",
+			"type" : "input"
+		},
+		{
+			"key":"borderColor",
+			"value":"#3e3e3e",
+			"name" : "边框颜色",
+			"type" : 0
+		},
+		{
+			"key":"borderStyle",
+			"value":"solid",
+			"name" : "边框样式",
+			"type" : 0
+		},
+		{
+			"key":"borderLeftWidth",
+			"value":0,
+			"name" : "左边框宽度",
+			"type" : 0	
+		},
+		{
+			"key":"borderRightWidth",
+			"value":0,
+			"name" : "右边框宽度",
+			"type" : 0
+		},
+		{
+			"key":"borderTopWidth",
+			"value":0,
+			"name" : "上边框宽度",
+			"type" : 0
+		},
+		{
+			"key":"borderBottomWidth",
+			"value":0,
+			"name" : "下边框宽度",
+			"type" : 0
+		},
+		{
+			"key":"textAlign",
+			"value":"left",
+			"name":"对齐方式",
+			"type":"select"
+		},
+		{
+			"key":"paddingTop",
+			"value":10,
+			"name":"上内边距",
+			"type":"input"
+		},
+		{
+			"key":"paddingRight",
+			"value":10,
+			"name":"右内边距",
+			"type":"input"
+		},
+		{
+			"key":"paddingBottom",
+			"value":10,
+			"name":"下内边距",
+			"type":"input"
+		},
+		{
+			"key":"paddingLeft",
+			"value":10,
+			"name":"左内边距",
+			"type":"input"
+		}
+	]
+}

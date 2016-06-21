@@ -5,9 +5,15 @@ define([
 	'components/table/tableVM',
 	'components/list/listVM',
 	'components/tableLay/tableLayVM',
+	'components/tableModule/tableModuleVM',
+	'components/headerLogo/headerLogoVM',
 	'components/img/imgVM',
+	'components/description/DescriptionVM',
 	'uuid'
-],function(vue,tpl,Model,TableVM,ListVM,TableLayVM,ImgVM){
+],function(vue,tpl,Model,
+	TableVM,ListVM,
+	TableLayVM,TableModule,HeaderLogoVM,
+	ImgVM,DescriptionVM){
 	var model = new Model();
 
 	return vue.extend({
@@ -40,7 +46,7 @@ define([
 				this.$broadcast('showModal',data.flag);
 			},
 			setRoot : function(_data){
-				this._data.container['d'+_data.id] = _data;
+				this._data.container['d_'+_data.id] = _data;
 				this.$dispatch('tellRoot',_data);
 			},
 			editComponent : function(id){
@@ -58,13 +64,14 @@ define([
 						result.col.value = data.col;
 						result.row.value = data.row;
 					}
+
 					_data= {
 						type : data.type,
 						id : _id,
 						data : result
 					};
 				});
-				this._data.container['d'+_data.id] = _data;
+				this._data.container['d_'+_data.id] = _data;
 				this.$dispatch('notifyRoot',_data);
 			},
 			finished : function(data){
@@ -79,6 +86,18 @@ define([
 						vm = new ImgVM();
 						vm._data.img = data;
 						break;
+					case 'tableModule':
+						vm = new TableModule();
+						vm._data.tableModule = data;
+						break;
+					case 'headerLogo':
+						vm = new HeaderLogoVM();
+						vm._data.headerLogo = data;
+						break;
+					case 'description':
+						vm = new DescriptionVM();
+						vm._data.description = data;
+						break;			
 				}
 
 				vm._data.id = data.id;
@@ -90,6 +109,11 @@ define([
 				}
 
 				this.insertId = data.id;
+			},
+			refleshStyle : function(data){
+				delete this._data.container['d_' + data.removeId];
+				this.$dispatch('tellRootEdit',data.setStyleId);
+				this.$dispatch('removeData',data.removeId);
 			}
 		}
 	});
