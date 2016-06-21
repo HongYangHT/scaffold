@@ -1,5 +1,5 @@
 body,h1,h2,h3,h4,h5,h6,p,form,input,textarea,button,th,td,ul,li{margin:0;padding:0;}
-body,textarea,select,input{color:#333;font:12px/21px 'Microsoft Yahei',STHeiti;}
+body,textarea,select,input{color:#333;font:12px/12px 'Microsoft Yahei',STHeiti;}
 body{width:100%;min-width:1190px;height:auto;position:relative;}
 a,button{cursor:pointer;text-decoration:none;}
 table,th,td{text-align:center;}
@@ -68,6 +68,9 @@ img{margin:0;padding:0;border:0;text-align:center;}
     padding: 20px 50px 50px 20px;
     border:1px solid #eee; 
 }
+.prev tr td, .prev tr th{
+	border:0;
+}
 .m-operate{
 	position: absolute;
 	width: 100%;
@@ -106,6 +109,16 @@ img{margin:0;padding:0;border:0;text-align:center;}
 .u-input{
 	width:300px;
 	height:36px;
+	line-height: 36px;
+	text-indent: 10px;
+	text-align: left;
+	color:#000;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+}
+.u-textarea{
+	width:300px;
+	min-height:36px;
 	line-height: 36px;
 	text-indent: 10px;
 	text-align: left;
@@ -235,7 +248,7 @@ img{margin:0;padding:0;border:0;text-align:center;}
     height: 40px;
     z-index: 10;
     background: rgba(51, 122, 183, .3);
-    .u-delete{
+    .u-delete, .u-edit{
     	margin-right: 40px;
     }
 }

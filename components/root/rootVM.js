@@ -15,9 +15,19 @@ function(vue,tpl,HeaderVM,BodyVM,FooterVM){
 		data : function(){
 			return {
 				root : 'root',
-				id : ''	
+				id : ''	,
+				picked : 0
 			};
 		},
-		template : tpl
+		template : tpl,
+		methods : {
+
+		},
+		events : {
+			editOrPreview : function(picked){
+				this.picked = picked;
+				this.$broadcast('tellBody',picked);
+			}
+		}
 	});
 });

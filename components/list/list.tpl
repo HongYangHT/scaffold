@@ -14,7 +14,7 @@
 				</div>
 				<section class="s-module">自适应邮件模块</section>
 				<div class="m-sect-2">
-					<div class="u-view" v-for="item in modules" data-type="{{item.type}}">
+					<div class="u-view" v-for="item in modules" data-type="{{item.type}}" data-row="{{item.row}}" data-col="{{item.col}}">
 						<label>{{item.name}}</label>
 						<input type="text" value="{{item.value}}" class="u-input-s" disabled="disabled"/>
 						<a href="javascript:;" target="_self" class="u-btn-s" v-on:click="addComponent($event)">增加</a>
@@ -28,7 +28,7 @@
 						<a href="javascript:;" target="_self" class="u-btn-s" v-on:click="addComponent($event)">增加</a>
 					</div>
 				</div>
-				<section class="s-page">活动页面布局</section>
+				<section class="s-page">页面布局</section>
 				<div class="m-sect-3">
 					<div class="u-div u-div-1">
 						comming soon ...

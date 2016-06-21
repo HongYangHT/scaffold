@@ -1,7 +1,7 @@
 {
 	"imgRoot":{
 		"key":"src",
-		"value":"http://mimg.127.net/hz/uploader/20160613/14658227165520004.jpg",
+		"value":"http://mimg.127.net/hz/uploader/20160406/14599301756730879.jpg",
 		"name":"图片地址",
 		"type":"input"
 	},
@@ -9,6 +9,12 @@
 		"key":"alt",
 		"value":"psc",
 		"name":"图片备注",
+		"type":"input"
+	},
+	"link":{
+		"key":"link",
+		"value":"http://you.163.com/",
+		"name":"图片链接",
 		"type":"input"
 	},
 	"style":[
@@ -34,37 +40,37 @@
 			"key":"borderColor",
 			"value":"#3e3e3e",
 			"name" : "边框颜色",
-			"type" : "input"
+			"type" : 0
 		},
 		{
 			"key":"borderStyle",
 			"value":"solid",
 			"name" : "边框样式",
-			"type" : "select"
+			"type" : 0
 		},
 		{
 			"key":"borderLeftWidth",
 			"value":0,
 			"name" : "左边框宽度",
-			"type" : "input"	
+			"type" : 0	
 		},
 		{
 			"key":"borderRightWidth",
 			"value":0,
 			"name" : "右边框宽度",
-			"type" : "input"
+			"type" : 0
 		},
 		{
 			"key":"borderTopWidth",
 			"value":0,
 			"name" : "上边框宽度",
-			"type" : "input"
+			"type" : 0
 		},
 		{
 			"key":"borderBottomWidth",
 			"value":0,
 			"name" : "下边框宽度",
-			"type" : "input"
+			"type" : 0
 		}
 	]
 }

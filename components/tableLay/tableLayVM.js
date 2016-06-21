@@ -67,7 +67,7 @@ define([
 			operateDelete : function($event){
 				$event.preventDefault();
 				$event.stopPropagation();
-				this.$distory(true);
+				$($event.target).closest('.m-oparate').siblings('table').remove().end().remove();
 			}
 		},
 		events : {
