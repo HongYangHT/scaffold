@@ -1,0 +1,214 @@
+{
+	"row" : {
+		"key":"row",
+		"value":1,
+		"name" : "行数",
+		"type" : "input"
+	},
+	"col" : {
+		"key":"col",
+		"value":1,
+		"name" : "列数",
+		"type" : "input"
+	},
+	"imgRoots":[
+		{
+			"key":"src",
+			"value":"http://mimg.127.net/hz/uploader/20160406/14599301756040875.jpg",
+			"name":"图片地址1",
+			"type":"input"
+		},
+		{
+			"key":"src",
+			"value":"http://mimg.127.net/hz/uploader/20160406/14599301756040875.jpg",
+			"name":"图片地址2",
+			"type":"input"
+		},
+		{
+			"key":"src",
+			"value":"http://mimg.127.net/hz/uploader/20160406/14599301756040875.jpg",
+			"name":"图片地址3",
+			"type":"input"
+		},
+		{
+			"key":"src",
+			"value":"http://mimg.127.net/hz/uploader/20160406/14599301756040875.jpg",
+			"name":"图片地址4",
+			"type":"input"
+		}
+	],
+	"remarks":[
+		{
+			"key":"alt",
+			"value":"psc",
+			"name":"图片备注1",
+			"type":"input"
+		},
+		{
+			"key":"alt",
+			"value":"psc",
+			"name":"图片备注2",
+			"type":"input"
+		},
+		{
+			"key":"alt",
+			"value":"psc",
+			"name":"图片备注3",
+			"type":"input"
+		},
+		{
+			"key":"alt",
+			"value":"psc",
+			"name":"图片备注4",
+			"type":"input"
+		}
+	],
+	"links":[
+		{
+			"key":"link",
+			"value":"http://mail.163.com/",
+			"name":"链接地址1",
+			"type":"input"
+		},
+		{
+			"key":"link",
+			"value":"http://mail.163.com/",
+			"name":"链接地址2",
+			"type":"input"
+		},
+		{
+			"key":"link",
+			"value":"http://mail.163.com/",
+			"name":"链接地址3",
+			"type":"input"
+		},
+		{
+			"key":"link",
+			"value":"http://mail.163.com/",
+			"name":"链接地址4",
+			"type":"input"
+		}
+	],
+	"style" : [
+		{
+			"key":"tableLayout",
+			"value":"fixed",
+			"name" : "页面布局",
+			"type" : 0
+		},
+		{
+			"key":"width",
+			"value":"100%",
+			"name":"宽度",
+			"type" : 0
+		},
+		{
+			"key":"maxWidth",
+			"value":"100%",
+			"name":"宽度",
+			"type" : "input"
+		},
+		{
+			"key":"minHeight",
+			"value":"100%",
+			"name":"高度",
+			"type" : "input"
+		},
+		{
+			"key":"height",
+			"value":"100%",
+			"name":"高度",
+			"type" : 0
+		},
+		{
+			"key":"color",
+			"value":"#333",
+			"name" : "字体颜色",
+			"type" : 0
+		},
+		{
+			"key":"fontFamily",
+			"value":"Microsoft YaHei,Simsun",
+			"name" : "字体",
+			"type" : 0
+		},
+		{
+			"key":"fontStyle",
+			"value":"normal",
+			"name": "字体样式",
+			"type" : 0
+		},
+		{
+			"key":"fontSize",
+			"value":"12",
+			"name" : "字体大小",
+			"type" : 0
+		},
+		{
+			"key":"fontWeight",
+			"value":"normal",
+			"name" : "字体粗细",
+			"type" : 0
+		},
+		{
+			"key":"borderColor",
+			"value":"#3e3e3e",
+			"name" : "边框颜色",
+			"type" : 0
+		},
+		{
+			"key":"borderStyle",
+			"value":"solid",
+			"name" : "边框样式",
+			"type" : 0
+		},
+		{
+			"key":"borderLeftWidth",
+			"value":0,
+			"name" : "左边框宽度",
+			"type" : 0	
+		},
+		{
+			"key":"borderRightWidth",
+			"value":0,
+			"name" : "右边框宽度",
+			"type" : 0
+		},
+		{
+			"key":"borderTopWidth",
+			"value":0,
+			"name" : "上边框宽度",
+			"type" : 0
+		},
+		{
+			"key":"borderBottomWidth",
+			"value":0,
+			"name" : "下边框宽度",
+			"type" : 0
+		},
+		{
+			"key":"backgroundImage",
+			"value":"none",
+			"name" : "背景图片",
+			"type" : 0
+		},
+		{
+			"key":"backgroundSize",
+			"value":"100% auto",
+			"name" : "背景的大小",
+			"type" : 0
+		},
+		{
+			"key":"backgroundRepeatX",
+			"value":"no-repeat",
+			"name" : "背景是否重复",
+			"type" : 0
+		},
+		{
+			"key":"backgroundRepeatY",
+			"value":"no-repeat",
+			"name" : "背景颜色",
+			"type" : 0
+		}
+	]
+}
