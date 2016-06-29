@@ -8,12 +8,14 @@ define([
 	'components/tableModule/tableModuleVM',
 	'components/headerLogo/headerLogoVM',
 	'components/img/imgVM',
-	'components/description/DescriptionVM',
+	'components/description/descriptionVM',
+	'components/link/linkVM',
+	'components/button/buttonVM',
 	'uuid'
 ],function(vue,tpl,Model,
 	TableVM,ListVM,
 	TableLayVM,TableModule,HeaderLogoVM,
-	ImgVM,DescriptionVM){
+	ImgVM,DescriptionVM,LinkVM,ButtonVM){
 	var model = new Model();
 
 	return vue.extend({
@@ -97,7 +99,17 @@ define([
 					case 'description':
 						vm = new DescriptionVM();
 						vm._data.description = data;
-						break;			
+						break;
+					case 'link':
+						vm = new LinkVM();
+						vm._data.link = data;
+						break;
+					case 'button':
+						vm = new ButtonVM();
+						vm._data.button = data;
+						// console.log(vm.$options.template);
+						// console.log(vm.$interpolate(vm.$options.template));
+						break;					
 				}
 
 				vm._data.id = data.id;

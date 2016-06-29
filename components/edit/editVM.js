@@ -191,7 +191,15 @@ define([
 				(data.data && data.data.imgRoots) ? (_that.imgRoots = data.data.imgRoots.slice(0,data.data.col.value)) : (_that.imgRoots = []);
 				(data.data && data.data.remarks) ? (_that.remarks = data.data.remarks.slice(0,data.data.col.value)) : (_that.imgRoots = []);
 				(data.data && data.data.links) ? (_that.links = data.data.links.slice(0,data.data.col.value)) : (_that.imgRoots = []);
-				
+
+				/* 文字链接 */
+				data.data && data.data.href && _properties.push(data.data.href);
+				data.data && data.data.linkText && _properties.push(data.data.linkText);
+
+				/* 按钮 */
+				data.data && data.data.btnLinks && _properties.push(data.data.btnLinks);
+				data.data && data.data.btnTexts && _properties.push(data.data.btnTexts);
+
 				this.properties = _properties;
 			},
 			setRootStyle : function(data){
@@ -238,6 +246,12 @@ define([
 				(data.data && data.data.remarks) ? (_that.remarks = data.data.remarks.slice(0,data.data.col.value)) : (_that.imgRoots = []);
 				(data.data && data.data.links) ? (_that.links = data.data.links.slice(0,data.data.col.value)) : (_that.imgRoots = []);
 
+				data.data && data.data.href && _properties.push(data.data.href);
+				data.data && data.data.linkText && _properties.push(data.data.linkText);
+
+				data.data && data.data.btnLinks && _properties.push(data.data.btnLinks);
+				data.data && data.data.btnTexts && _properties.push(data.data.btnTexts);
+				
 				this.properties = _properties;
 			}	
 		}
