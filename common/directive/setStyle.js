@@ -30,6 +30,11 @@ define(['vue','underscore'],function(vue,_){
                     case 'paddingRight':
                     case 'paddingBottom':
                     case 'paddingLeft':
+                    case 'marginTop':
+                    case 'marginRight':
+                    case 'marginBottom':
+                    case 'marginLeft':
+                    case 'lineHeight':
    						_that.el.style[key] = value + 'px';
    						break;
                     case 'width':
