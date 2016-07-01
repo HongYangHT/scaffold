@@ -107,8 +107,6 @@ define([
 					case 'button':
 						vm = new ButtonVM();
 						vm._data.button = data;
-						// console.log(vm.$options.template);
-						// console.log(vm.$interpolate(vm.$options.template));
 						break;					
 				}
 
